@@ -1,0 +1,6 @@
+# - id: home
+#   path: /
+- id: article
+  path: /article
+- id: linkout
+  url: https://google.com

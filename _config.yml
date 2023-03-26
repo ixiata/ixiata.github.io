@@ -27,6 +27,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ixiata
 github_username:  ixiata
 
+google_tag_manager: GTM-NCPQMBW
+
 # Sitemap (see sitemap.xml)
 sitemap:
   changefreq: weekly

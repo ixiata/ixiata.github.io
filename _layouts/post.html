@@ -2,20 +2,20 @@
 layout: default
 ---
 
-{% assign test = page.url | split: '-' %}
-{{ test[-1] }}
+<!-- {% assign test = page.url | split: '-' %}
+{{ test[-1] }} -->
 
 
-<div class="cover" style="background-image: url('{{ site.url }}{{ site.baseurl }}{{ page.image }}');"></div>
+<!-- <div class="cover" style="background-image: url('{{ site.url }}{{ site.baseurl }}{{ page.image }}');"></div> -->
 
-<small class="meta">
+<!-- <small class="meta">
   <time datetime="{{ page.date }}">{{ page.date | date: '%d/%m/%Y' }}</time>
   {% if page.tags %}
   <span class="tags">
     {{ page.tags | join: ', ' }}
   </span>
   {% endif %}
-</small>
+</small> -->
 
 <h1>{{ page.title }}</h1>
 <p>{{ page.description }}</p>
